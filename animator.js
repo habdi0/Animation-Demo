@@ -25,7 +25,7 @@ class Animator {
             this.xStart + this.width*frame, this.yStart,
             this.width, this.height, // source width & height, how big of the frame are we grabbing from the spritesheet
             x, y, // destination X & /Y, where on the canvas will we be drawing
-            this.width, this.height // destination width & height, how big we want to draw that as well
+            this.width*8, this.height*8 // destination width & height, how big we want to draw that as well
             )
     };
 

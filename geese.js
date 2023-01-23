@@ -9,6 +9,6 @@ class Geese {
     };
 
     draw(ctx) { // ctx - the context
-        this.animator.drawFrame(this.game.clockTick, ctx, 25, 25);
+        this.animator.drawFrame(this.game.clockTick, ctx, 300, 200);
     };
 }
